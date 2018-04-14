@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>贝贝网</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" href="css/base.css" />
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <link rel="stylesheet" type="text/css" href="css/nav.css" />
+    <script src="lib/jquery-3.2.1.js"></script>
+   
+    <script>
+        jQuery(function($){
+             $('#hander').load('html/header.html');
+              $('#nav').load('html/nav.html');
+
+             $('#footer').load('html/footer.html');
+        });
+    </script>
+    <script src="js/common.js"></script>
+</head>
+<body>
+    <header id="hander"></header>
+    <nav id="nav"></nav>
+   <div class="js-silder">
+       <div class="silder-scroll">
+            <div class="silder-main">
+                <div class="silder-main-img">
+                    <img src="img/banner1.jpg" alt="">
+                </div>
+                <div class="silder-main-img">
+                    <img src="img/banner2.png" alt="">
+                </div>
+                <div class="silder-main-img">
+                    <img src="img/banner3.jpg" alt="">
+                </div>
+                <div class="silder-main-img">
+                    <img src="img/banner4.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="yugao">
+            <a href="#"><img src="img/yugao1.png" alt="" /></a>
+            <a href="#"><img src="img/yugao2.png" alt="" /></a>
+            <a href="#"><img src="img/yugao3.png" alt="" /></a>
+            <a href="#"><img src="img/yugao4.png" alt="" /></a>
+        </div>
+    </div>
+    <script src="lib/jquery-1.11.3.min.js" type="text/javascript"></script>
+    <script src="js/wySilder.min.js" type="text/javascript"></script>
+    <script>
+        $(function (){
+            $(".js-silder").silder({
+                auto: true,
+                speed: 20,
+                sideCtrl: true,
+                bottomCtrl: true,
+                defaultView: 0,
+                interval: 3000,
+                activeClass: "active",
+            });
+        });
+    </script>
+
+    <div id="cont">
+        <div class="container">
+            <div class="temai">
+                <span>今日特卖·</span><span>每天九点准时上新</span><span>定制我的专属特卖，立即<a href="html/login.html">[登录]</a>体验</span>
+            </div>
+           <!--  ajax请求数据生成 -->
+            <div class="pinpai">
+                <div class="pinpai_t">
+                   <img src="img/dfn.jpg" alt="" class="fl"/>
+                   <p>达芙妮/DAPHNE</p>
+                   <span>达芙妮清仓两折起</span>
+                   <a href="#">0.7折起></a>
+                </div>
+                <div class="pinpai_b"></div>
+            </div>
+            <!-- 右侧边 -->
+            <div class="right_t">
+                <span class="right_tl">
+                    今日优选
+                </span>
+                 <span class="right_tr">
+                    精彩预告
+                </span>
+                <div class="right_tb">
+                    <img src="img/youxuan.png" alt="" />
+                </div>
+                 
+
+                <div class="right_tbr">
+                    <img src="img/yg.png" alt="" />
+                </div>
+            </div>
+           <!--  轮播图 -->
+            <div class="right_c">
+                <ul>
+                    <li><img src="img/lbt1.jpg"></li>
+                    <li><img src="img/lbt2.jpg"></li>
+                    <li><img src="img/lbt3.jpg"></li>
+                </ul>
+            </div>
+            <div class="right_b">
+                <img src="img/rmph.png" alt="" />
+                <span class="tz">童装</span>
+                <span class="tx">童鞋</span>
+                <span class="wj">玩具</span>
+                <span class="yp">用品</span>
+                <div class="paihang tz_cont">
+                    <img src="img/tz.png" alt="" />
+                </div>
+                <div class="paihang tx_cont">
+                    <img src="img/tx.png" alt="" />
+                </div>
+                <div class="paihang wj_cont">
+                    
+                </div>
+                <div class="paihang yp_cont">
+                    <img src="img/yp.png" alt="" />
+                </div>
+
+            </div>
+             <div class="pinpai">
+                <div class="pinpai_t">
+                   <img src="img/qy.jpg" alt="" class="fl"/>
+                   <p>清扬/CLEAR</p>
+                   <span>拥有健康自然亮泽</span>
+                   <a href="#">2.7折起></a>
+                </div>
+                <div class="pinpai_b">
+                    <li>
+                        <img src="img/qy1.png" alt="" />
+                        <span>￥49</span>
+                        <del><span>￥118</span></del>
+                        <p> CLAER/清扬去屑洗发露 多效水润养护型男女士洗发水</p>
+                    </li>
+                    <li>
+                        <img src="img/qy2.png" alt="" />
+                        <span>￥49</span>
+                        <del><span>￥79</span></del>                     <p> CLAER/清扬去屑洗发露 多效水润养护型男女士洗发水</p>
+                    </li>
+                    <li>
+                        <img src="img/qy3.png" alt="" />
+                        <span>￥44</span>
+                        <del><span>￥80</span></del>                     <p> CLAER/清扬去屑洗发露 多效水润养护型男女士洗发水</p>
+                    </li>
+                    <li>
+                        <img src="img/qy4.png" alt="" />
+                        <span>￥49</span>
+                        <del><span>￥78</span></del>                     <p> CLAER/清扬去屑洗发露 多效水润养护型男女士洗发水</p>
+                    </li>
+                </div>
+            </div>
+              <div class="pinpai">
+                <div class="pinpai_t">
+                   <img src="img/qy.jpg" alt="" class="fl"/>
+                   <p>清扬/CLEAR</p>
+                   <span>拥有健康自然亮泽</span>
+                   <a href="#">2.7折起></a>
+                </div>
+                <div class="pinpai_b">
+                    <li>
+                        <img src="img/qy1.png" alt="" />
+                        <span>￥49</span>
+                        <del><span>￥118</span></del>
+                        <p> CLAER/清扬去屑洗发露 多效水润养护型男女士洗发水</p>
+                    </li>
+                    <li>
+                        <img src="img/qy2.png" alt="" />
+                        <span>￥49</span>
+                        <del><span>￥79</span></del>                     <p> CLAER/清扬去屑洗发露 多效水润养护型男女士洗发水</p>
+                    </li>
+                    <li>
+                        <img src="img/qy3.png" alt="" />
+                        <span>￥44</span>
+                        <del><span>￥80</span></del>                     <p> CLAER/清扬去屑洗发露 多效水润养护型男女士洗发水</p>
+                    </li>
+                    <li>
+                        <img src="img/qy4.png" alt="" />
+                        <span>￥49</span>
+                        <del><span>￥78</span></del>                     <p> CLAER/清扬去屑洗发露 多效水润养护型男女士洗发水</p>
+                    </li>
+                </div>
+            </div>
+             <div class="pinpai">
+                <div class="pinpai_t">
+                   <img src="img/qy.jpg" alt="" class="fl"/>
+                   <p>清扬/CLEAR</p>
+                   <span>拥有健康自然亮泽</span>
+                   <a href="#">2.7折起></a>
+                </div>
+                <div class="pinpai_b">
+                    <li>
+                        <img src="img/qy1.png" alt="" />
+                        <span>￥49</span>
+                        <del><span>￥118</span></del>
+                        <p> CLAER/清扬去屑洗发露 多效水润养护型男女士洗发水</p>
+                    </li>
+                    <li>
+                        <img src="img/qy2.png" alt="" />
+                        <span>￥49</span>
+                        <del><span>￥79</span></del>  <p> CLAER/清扬去屑洗发露 多效水润养护型男女士洗发水</p>
+                    </li>
+                    <li>
+                        <img src="img/qy3.png" alt="" />
+                        <span>￥44</span>
+                        <del><span>￥80</span></del>                     <p> CLAER/清扬去屑洗发露 多效水润养护型男女士洗发水</p>
+                    </li>
+                    <li>
+                        <img src="img/qy4.png" alt="" />
+                        <span>￥49</span>
+                        <del><span>￥78</span></del>                     <p> CLAER/清扬去屑洗发露 多效水润养护型男女士洗发水</p>
+                    </li>
+                </div>
+            </div>
+             <div class="pinpai">
+                <div class="pinpai_t">
+                   <img src="img/qy.jpg" alt="" class="fl"/>
+                   <p>清扬/CLEAR</p>
+                   <span>拥有健康自然亮泽</span>
+                   <a href="#">2.7折起></a>
+                </div>
+                <div class="pinpai_b">
+                    <li>
+                        <img src="img/qy1.png" alt="" />
+                        <span>￥49</span>
+                        <del><span>￥118</span></del>
+                        <p> CLAER/清扬去屑洗发露 多效水润养护型男女士洗发水</p>
+                    </li>
+                    <li>
+                        <img src="img/qy2.png" alt="" />
+                        <span>￥49</span>
+                        <del><span>￥79</span></del>                     <p> CLAER/清扬去屑洗发露 多效水润养护型男女士洗发水</p>
+                    </li>
+                    <li>
+                        <img src="img/qy3.png" alt="" />
+                        <span>￥44</span>
+                        <del><span>￥80</span></del>                     <p> CLAER/清扬去屑洗发露 多效水润养护型男女士洗发水</p>
+                    </li>
+                    <li>
+                        <img src="img/qy4.png" alt="" />
+                        <span>￥49</span>
+                        <del><span>￥78</span></del>                     <p> CLAER/清扬去屑洗发露 多效水润养护型男女士洗发水</p>
+                    </li>
+                </div>
+            </div>
+             <div class="pinpai">
+                <div class="pinpai_t">
+                   <img src="img/qy.jpg" alt="" class="fl"/>
+                   <p>清扬/CLEAR</p>
+                   <span>拥有健康自然亮泽</span>
+                   <a href="#">2.7折起></a>
+                </div>
+                <div class="pinpai_b">
+                    <li>
+                        <img src="img/qy1.png" alt="" />
+                        <span>￥49</span>
+                        <del><span>￥118</span></del>
+                        <p> CLAER/清扬去屑洗发露 多效水润养护型男女士洗发水</p>
+                    </li>
+                    <li>
+                        <img src="img/qy2.png" alt="" />
+                        <span>￥49</span>
+                        <del><span>￥79</span></del>                     <p> CLAER/清扬去屑洗发露 多效水润养护型男女士洗发水</p>
+                    </li>
+                    <li>
+                        <img src="img/qy3.png" alt="" />
+                        <span>￥44</span>
+                        <del><span>￥80</span></del>                     <p> CLAER/清扬去屑洗发露 多效水润养护型男女士洗发水</p>
+                    </li>
+                    <li>
+                        <img src="img/qy4.png" alt="" />
+                        <span>￥49</span>
+                        <del><span>￥78</span></del>                     <p> CLAER/清扬去屑洗发露 多效水润养护型男女士洗发水</p>
+                    </li>
+                </div>
+            </div>
+             <div class="pinpai">
+                <div class="pinpai_t">
+                   <img src="img/qy.jpg" alt="" class="fl"/>
+                   <p>清扬/CLEAR</p>
+                   <span>拥有健康自然亮泽</span>
+                   <a href="#">2.7折起></a>
+                </div>
+                <div class="pinpai_b">
+                    <li>
+                        <img src="img/qy1.png" alt="" />
+                        <span>￥49</span>
+                        <del><span>￥118</span></del>
+                        <p> CLAER/清扬去屑洗发露 多效水润养护型男女士洗发水400ml/500ml/750ml套装</p>
+                    </li>
+                    <li>
+                        <img src="img/qy2.png" alt="" />
+                        <span>￥49</span>
+                        <del><span>￥79</span></del> <p> CLAER/清扬去屑洗发露 多效水润养护型男女士洗发水400ml/500ml/750ml套装</p>
+                    </li>
+                    <li>
+                        <img src="img/qy3.png" alt="" />
+                        <span>￥44</span>
+                        <del><span>￥80</span></del><p> CLAER/清扬去屑洗发露 多效水润养护型男女士洗发水400ml/500ml/750ml套装</p>
+                    </li>
+                    <li>
+                        <img src="img/qy4.png" alt="" />
+                        <span>￥49</span>
+                        <del><span>￥78</span></del>                     <p> CLAER/清扬去屑洗发露 多效水润养护型男女士洗发水400ml/500ml/750ml套装</p>
+                    </li>
+                </div>
+            </div>
+             <div class="pinpai">
+                <div class="pinpai_t">
+                   <img src="img/qy.jpg" alt="" class="fl"/>
+                   <p>清扬/CLEAR</p>
+                   <span>拥有健康自然亮泽</span>
+                   <a href="#">2.7折起></a>
+                </div>
+                <div class="pinpai_b">
+                    <li>
+                        <img src="img/qy1.png" alt="" />
+                        <span>￥49</span>
+                        <del><span>￥118</span></del>
+                        <p> CLAER/清扬去屑洗发露 多效水润养护型男女士洗发水400ml/500ml/750ml套装</p>
+                    </li>
+                    <li>
+                        <img src="img/qy2.png" alt="" />
+                        <span>￥49</span>
+                        <del><span>￥79</span></del>                     <p> CLAER/清扬去屑洗发露 多效水润养护型男女士洗发水400ml/500ml/750ml套装</p>
+                    </li>
+                    <li>
+                        <img src="img/qy3.png" alt="" />
+                        <span>￥44</span>
+                        <del><span>￥80</span></del>                    
+                        <p> CLAER/清扬去屑洗发露 多效水润养护型男女士洗发水400ml/500ml/750ml套装</p>
+                    </li>
+                    <li>
+                        <img src="img/qy4.png" alt="" />
+                        <span>￥49</span>
+                        <del><span>￥78</span></del>                   
+                         <p> CLAER/清扬去屑洗发露 多效水润养护型男女士洗发水400ml/500ml/750ml套装</p>
+                    </li>
+                </div>
+            </div>
+             <div class="pinpai">
+                <div class="pinpai_t">
+                   <img src="img/qy.jpg" alt="" class="fl"/>
+                   <p>清扬/CLEAR</p>
+                   <span>拥有健康自然亮泽</span>
+                   <a href="#">2.7折起></a>
+                </div>
+                <div class="pinpai_b">
+                    <li>
+                        <img src="img/qy1.png" alt="" />
+                        <span>￥49</span>
+                        <del><span>￥118</span></del>
+                        <p> CLAER/清扬去屑洗发露 多效水润养护型男女士洗发水400ml/500ml/750ml套装</p>
+                    </li>
+                    <li>
+                        <img src="img/qy2.png" alt="" />
+                        <span>￥49</span>
+                        <del><span>￥79</span></del>                     <p> CLAER/清扬去屑洗发露 多效水润养护型男女士洗发水400ml/500ml/750ml套装</p>
+                    </li>
+                    <li>
+                        <img src="img/qy3.png" alt="" />
+                        <span>￥44</span>
+                        <del><span>￥80</span></del>                     <p> CLAER/清扬去屑洗发露 多效水润养护型男女士洗发水400ml/500ml/750ml套装</p>
+                    </li>
+                    <li>
+                        <img src="img/qy4.png" alt="" />
+                        <span>￥49</span>
+                        <del><span>￥78</span></del>                     <p> CLAER/清扬去屑洗发露 多效水润养护型男女士洗发水400ml/500ml/750ml套装</p>
+                    </li>
+                </div>
+            </div>
+             <div class="pinpai">
+                <div class="pinpai_t">
+                   <img src="img/qy.jpg" alt="" class="fl"/>
+                   <p>清扬/CLEAR</p>
+                   <span>拥有健康自然亮泽</span>
+                   <a href="#">2.7折起></a>
+                </div>
+                <div class="pinpai_b">
+                    <li>
+                        <img src="img/qy1.png" alt="" />
+                        <span>￥49</span>
+                        <del><span>￥118</span></del>
+                        <p> CLAER/清扬去屑洗发露 多效水润养护型男女士洗发水400ml/500ml/750ml套装</p>
+                    </li>
+                    <li>
+                        <img src="img/qy2.png" alt="" />
+                        <span>￥49</span>
+                        <del><span>￥79</span></del>                     <p> CLAER/清扬去屑洗发露 多效水润养护型男女士洗发水400ml/500ml/750ml套装</p>
+                    </li>
+                    <li>
+                        <img src="img/qy3.png" alt="" />
+                        <span>￥44</span>
+                        <del><span>￥80</span></del>                     <p> CLAER/清扬去屑洗发露 多效水润养护型男女士洗发水400ml/500ml/750ml套装</p>
+                    </li>
+                    <li>
+                        <img src="img/qy4.png" alt="" />
+                        <span>￥49</span>
+                        <del><span>￥78</span></del>                     <p> CLAER/清扬去屑洗发露 多效水润养护型男女士洗发水400ml/500ml/750ml套装</p>
+                    </li>
+                </div>
+            </div>
+            <div class="more">点击展开更多精彩</div>
+        </div>
+        <div class="beijing"></div>
+        <div class="dibu">
+            <div class="container">
+                <div class="dibu_t">
+                    <dl style="border-left:0 none;">
+                        <dt>新手指南</dt>
+                        <dd>·注册登录</dd>
+                        <dd>·抢购商品</dd>
+                        <dd>·购物车操作</dd>
+                        <dd>·下单支付</dd>
+                    </dl>
+                    <dl>
+                        <dt>常见问题</dt>
+                        <dd>·热门常见问题</dd>
+                        <dd>·退货/退款相关</dd>
+                        <dd>·发货相关</dd>
+                        <dd>·平台交易规则</dd>
+                    </dl>
+                    <dl>
+                        <dt>账号管理</dt>
+                        <dd>·会员注册</dd>
+                        <dd>·密码管理</dd>
+                        <dd>·投诉举报</dd>
+                        <dd>·不良信息处理</dd>
+                    </dl>
+                     <dl>
+                        <dt>支付相关</dt>
+                        <dd>·在线支付</dd>
+                        <dd>·余额支付</dd>
+                    </dl>
+                     <dl>
+                        <dt>配送相关</dt>
+                        <dd>·配送说明</dd>
+                        <dd>·物流信息</dd>
+                        <dd>·验货签收</dd>
+                    </dl>
+                     <dl>
+                        <dt>消费者保障</dt>
+                        <dd>·退货政策</dd>
+                        <dd>·退货流程</dd>
+                        <dd>·退货方式和时效</dd>
+                        <dd>·交易安全保障</dd>
+                        <dd>·保证金制度</dd>
+                    </dl>
+                    <div class="dibu_tr fl">
+                        <img src="img/erweima.png" alt="" class="fl"/>
+                        <p>关注社区</p>
+                        <p>优惠特卖早知道</p>
+                        <i><img class="aa" src="img/weibo.png" alt="" /></i><i><img  class="aa" src="img/kongjian.png" alt="" /></i>
+                    </div>
+                </div>
+                <div class="dibu_b ">
+                   <img src="img/zp.png" alt="" /> 
+                </div>
+            </div>
+        </div>
+    </div>   
+    <footer id="footer"></footer>
+    <div class="container">
+        <div class="hezuo">
+            <img src="img/kxwz.png" alt="" />
+            <img src="img/cxwz.png" alt="" />
+            <img src="img/zgrs.png" alt="" />
+            <img src="img/hzgs.png" alt="" />
+        </div>
+    </div>
+    <script src="js/index.js"></script>
+    <script src="js/base.js"></script>
+</body>
+</html>
