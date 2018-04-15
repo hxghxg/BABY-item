@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>登录</title>
+    <link rel="stylesheet" type="text/css" href="../css/base.css" />
+    <link rel="stylesheet" type="text/css" href="../css/register.css" />
+   <!--  <script src="../lib/jquery-3.2.1.js"></script>
+     <script>
+        jQuery(function($){
+             $('#footer').load('footer.html');
+        });
+    </script> -->
+     <script src="../js/require.js" data-main="../js/login.js" async></script>
+</head>
+<body>
+    <header id="hander">
+        <div class="logo"> 
+            <div class="container">
+                <img class="pic" src="../img/logo.png" alt="" />
+                <div class="baozhang">
+                    <a href="#"><img src="../svg/正品保证.svg" />正品保证</a> <a href="#"><img src="../svg/授权正品.svg" />品牌授权特卖</a><a href="#"><img src="../svg/包邮.svg" />全场包邮</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div id="cont">
+        <div class="container">
+            <div class="cont_l fl"><img src="../img/register.png" alt="" /></div>
+            <div class="cont_r fr">
+                <span class="dl">登录贝贝</span><span class="fr">还没账号？<a href="reg.html" style="color:#FF4965;">立即注册</a></span><br />
+                <i><img src="../svg/wode.svg" alt="" style="display:block;width: 16px;height: 16px;"/></i>
+                
+                <input class="aa" type="text"  id="username" name="username" placeholder="|您的手机号/邮箱"/>
+                <div id="txt"></div>
+                <div class="group">
+                    <i class="mima"><img src="../svg/锁.svg" alt="" style="display:block;width: 18px;height: 18px;"/></i>
+                    <input class="aa" type="text" id="password" name="password"placeholder="|密码"/>
+                </div>
+                 <span class="num fl">3658</span><input class="bb"  type="text" placeholder="请输入验证码"/><br />
+                <input type="radio" />自动登录<span class="fr" style="color:#FF4965;">忘记密码</span><br />
+                <button class="btn btnLogin">登录</button>
+            </div>
+        </div>
+    </div>
+    <footer id="footer"></footer>
+   <!--  <script src="../js/common.js"></script>
+    <script src="../js/login.js"></script> -->
+</body>
+</html>  

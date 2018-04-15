@@ -1,0 +1,110 @@
+ 
+<div class="hander_nav"> 
+    <div class="container">
+        <ul>
+            <li style="border:0 none;">您好，请<a href="html/login.html" > 登录<span><a href="html/reg.html" style="color:#FF647C;">免费注册</a></span></a></li>
+            <li><a href="#">商家入驻</a></li>
+            <li><a href="#">商家中心</a></li>
+            <li><a href="#"><img src="../svg/wenhao.svg" />帮助中心<img src="../svg/jiantou.svg" /></a></li>
+            <li class="aa"><a href="#" class="gz">关注<img src="../svg/jiantou.svg" /></a></li>
+        </ul>
+        <div class="guanzhu" style="right:14px;"><img src="../img/guanzhu.png" alt="" /></div>
+    </div>
+</div>
+<div class="logo"> 
+    <div class="container"> 
+            <img class="pic" src="../img/logo.png" alt="" />
+        <div class="baozhang">
+            <a href="#"><img src="../svg/正品保证.svg" />正品保证</a><a href="#"><img src="../svg/授权正品.svg" />品牌授权特卖</a><a href="#"><img src="../svg/包邮.svg" />全场包邮</a>
+         </div>
+        <div class="car">
+            <a href="#" ><span><img src="../svg/购物车.svg" class="pic1"/>我的购物车<img src="../svg/xxjt.svg" style="width: 16px;height: 16px;"/></span></a>
+        </div>
+        <div class="buycar">
+            <div class="shangpin shangpin1">
+                <p>赶快去挑选商品吧！</p>
+            </div>
+            <div class="shangpin_b">
+                <span class="xiaoji1"></span>
+                <a href="car.html">
+                    <img src="../img/shangpin.png" alt="" class="fr"/>
+                </a>
+            </div>
+        </div>
+    </div>
+ </div>
+
+<div id="youbian">
+    <ul>
+        <li class="dianwo"><a href="#"><img src="../svg/car.svg" alt="" /></a></li>
+        <li class="appimg"><a href="#"><img src="../svg/shouji.svg" alt="" /></a></li>
+        <li><a href="#"><img src="../svg/wode.svg" alt="" /></a></li>
+        <li><a href="#"><img src="../svg/xiangshang.svg" alt="" /></a></li>
+    </ul>
+    <div class="app"><img src="../img/app.png" alt="" /></div>
+<div class="buycar buycar_l">
+    <div class="shangpin shangpin2 ">
+
+        <p>赶快去挑选商品吧！</p>
+    </div>
+
+    <div class="shangpin_b">
+        <span class="xiaoji"></span>
+        <a href="car.html">
+            <img src="../img/shangpin.png" alt="" class="fr"/>
+        </a>
+    </div>
+</div>
+</div>
+<script type="text/javascript">
+    let car = document.querySelector('.car');
+    let buycar = document.querySelector('.buycar');
+    let dianwo = document.querySelector('.dianwo');
+    let buycar_l = document.querySelector('.buycar_l');
+    car.onmouseover=function(){
+        buycar.style.display='block';
+    }
+    car.onmouseout=function(){
+        buycar.style.display='none';
+    }
+    buycar.onmouseover=function(){
+        buycar.style.display='block';
+    }
+    buycar.onmouseout=function(){
+        buycar.style.display='none';
+    }
+    
+    dianwo.onmouseover=function(){
+        buycar_l.style.display='block';
+    }
+     dianwo.onmouseout=function(){
+        buycar_l.style.display='none';
+    }
+    buycar_l.onmouseover=function(){
+        buycar_l.style.display='block';
+    }
+    buycar_l.onmouseout=function(){
+        buycar_l.style.display='none';
+    }
+    
+    let aa = document.querySelector('.aa');
+    let gz = document.querySelector('.gz');
+    let guanzhu = document.querySelector('.guanzhu');
+    gz.onmouseover=function(){
+        guanzhu.style.display="block";
+        aa.style.backgroundColor='#fff';
+    }
+     gz.onmouseout=function(){
+        guanzhu.style.display="none";
+        aa.style.backgroundColor='#F4F4F4';
+    }
+    let appimg = document.querySelector('.appimg');
+    let app = document.querySelector('.app');
+    appimg.onmouseover=function(){
+        app.style.display="block";
+    }
+     appimg.onmouseout=function(){
+        app.style.display="none";
+    }
+
+</script>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>注册</title>
+    <link rel="stylesheet" type="text/css" href="../css/base.css" />
+    <link rel="stylesheet" type="text/css" href="../css/register.css" />
+   <!--  <script src="../lib/jquery-3.2.1.js"></script>
+     <script>
+        jQuery(function($){
+             $('#footer').load('footer.html');
+        });
+    </script> -->
+     <script src="../js/require.js" data-main="../js/reg.js" async></script>
+</head>
+<body>
+    <header id="hander">
+        <div class="logo"> 
+            <div class="container">
+                <img class="pic" src="../img/logo.png" alt="" />
+                <div class="baozhang">
+                    <a href="#"><img src="../svg/正品保证.svg" />正品保证</a> <a href="#"><img src="../svg/授权正品.svg" />品牌授权特卖</a><a href="#"><img src="../svg/包邮.svg" />全场包邮</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div id="cont">
+        <div class="container">
+            <div class="cont_l fl"><img src="../img/register.png" alt="" /></div>
+            <div class="cont_r fr">
+                <span class="dl">新用户注册</span><span class="fr">已有账号？<a href="login.html" style="color:#FF4965;">直接登录</a></span><br />
+                <i><img src="../svg/wode.svg" alt="" style="display:block;width: 16px;height: 16px;"/></i>
+               
+                <input class="aa" type="text" name="username" id="username" placeholder="|您的手机号"/>
+                <div class="help-block"></div>
+                
+                <!-- <input type="text" placeholder="|短信校验码" class="dxjy"/><button id="huoqu">获取校验码</button> -->
+                <div class="group">
+                    <i class="mima"><img src="../svg/锁.svg" alt="" style="display:block;width: 18px;height: 18px;"/></i>
+                    <input class="aa" type="text" name="password" id="password" placeholder="|密码：6-16位字母，数字或符号"/>
+                    <div class="help-block"></div>
+                 </div>
+                <button class="btn btnReg">登录</button>
+                <p>
+                   为保障账户安全，建议密码为6-16位字符，可包含数字、字母和特殊字符。
+                </p>
+                <p>
+                    注册即接受 <a href="http://www.beibei.com/support/user/agreement.html" target="_blank" style="color:#FF4965;">《贝贝使用协议》</a>和<a href="http://www.beibei.com/support/user/community.html" target="_blank" style="color:#FF4965;">《社区使用协议》</a>
+                </p>
+            </div>
+        </div>
+    </div>
+    <footer id="footer"></footer>
+    <!-- <script src="../js/common.js"></script>
+    <script src="../js/reg.js"></script> -->
+</body>
+</html>  

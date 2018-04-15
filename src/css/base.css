@@ -1,0 +1,115 @@
+﻿@charset "UTF-8";
+/*css 初始化 */
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, 
+fieldset, legend, img,input{ margin:0; padding:0; }
+fieldset, img,input,button { border:0 none; }
+a{text-decoration:none;
+padding:0;margin:0;outline-style:none; }   /*去掉input等聚焦时的蓝色边
+
+框*/
+ul, ol { list-style:none; }
+/*input { padding-top:0; padding-bottom:0; font-family: "SimSun","宋
+
+体";}*/
+select, input { vertical-align:middle;}
+/*select, input, textarea { font-size:12px; margin:0; }*/
+textarea { resize:none; } /*防止拖动*/
+img {border:0; vertical-align:middle; }  
+/*  去掉图片低测默认的3像素空白缝隙，或者用display：block也可以*/
+table { border-collapse:collapse; }
+
+
+/*添加公共样式*/
+body {
+    font:12px/150% Arial,Verdana,"\5b8b\4f53";
+    color:#666;
+    background:#fff;
+}
+.clearfix:after{
+    content:"";
+    display:block;
+    height:0px;
+    clear:both;
+    overflow:hidden;
+    visibility:hidden;
+    zoom:1;
+}
+a {color:#666; text-decoration:none; }
+/*a:hover{color:#C81623;}*/
+h1,h2,h3,h4,h5,h6 {text-decoration:none;font-weight:normal;font-
+
+size:1em;}  /*设置h标签的大小，设置跟父亲一样大的字体font-size:100%;*/
+s,i,em{font-style:normal;text-decoration:none;}
+
+
+/*公共类*/
+.container {  /*版心 提取 */
+    width: 1080px;
+    margin:0 auto;
+   
+}
+.fl {
+    float:left;
+}
+.fr {
+    float:right;
+}
+.al {
+    text-align:left;
+};
+.ac {
+    text-align:center;
+}
+.ar {
+    text-align:right;
+}
+.hide {
+    display:none;
+}
+.font12{ font-size: 12px;}
+.font14{ font-size: 14px;}
+.font16{ font-size: 16px;}
+
+
+/*  头部   */
+.hander_nav{height: 30px;background:#F4F4F4;}
+.hander_nav ul{float: right;}
+.hander_nav li{float: left;}
+.hander_nav li{line-height: 30px;font-size: 12px;padding:0 12px;border-left:2px solid #DDDDDD;}
+.hander_nav li span {padding-left:12px;}
+.hander_nav li img{width: 16px;height: 16px;}
+.hander_nav .guanzhu{position:absolute;top:30px;right:-90px;z-index: 100;display:none;}
+.logo .baozhang img,.logo .car img{display:inline-block;width: 30px;height: 30px;}
+.logo .baozhang a{padding-left:18px;}
+.logo .container .pic{position: absolute;top:50%;left:0;transform:translate(0,-50%);}
+.logo .container{position:relative;height: 90px;}
+.logo .baozhang{position: absolute;top:50%;right:120px;transform:translate(0,-50%);}
+.logo .car{background:#FF647C;border-radius: 20px;position: absolute;top:50%;right:0;transform:translate(0,-50%);}
+.logo .car a{color:#fff;}
+.logo .car .pic1{border:2px solid #fff;border-radius: 16px;}
+
+/* 脚部  */
+#footer{text-align: center;}
+.footer_nav{border-top: 3px solid #ff5482;background: #555;padding: 10px 0;color: #ddd;}
+.footer_nav a{color: #ddd;margin: 0 10px;}
+.footer_content {
+    background: #fff;
+    padding: 20px 0 20px 0;
+    color: #999;
+}
+
+/*右侧边固定*/
+#youbian {position:fixed;bottom:154px;right:10px;z-index: 1000;background:#FFFFFF;}
+#youbian ul{border-top:2px solid #ddd;border-left:2px solid #ddd;}
+#youbian ul li{border-right:2px solid #ddd;border-bottom:2px solid #ddd;}
+#youbian ul li a{display:block;width: 70px;height: 44px;text-align:center;line-height: 44px;}
+#youbian ul li img{display:inline-block; width: 20px;height: 20px;}
+#youbian .app{position:absolute;top:-45px;right:72px;display:none;}
+/*隐藏购物车上*/
+.buycar{width: 340px;height: 210px;border:1px solid #FF4965;background: #fff;position:absolute;top:62px;right:0;z-index: 100;display:none;}
+.buycar .shangpin{height: 150px;border-bottom: 1px solid #ddd;list-style: none;padding:5px;overflow-x: hidden;}
+.buycar .shangpin_b{height: 44px;padding:6px 5px 0 5px;line-height: 44px;}
+.buycar_l{position:absolute;top:-68px;right:74px;display:none;}
+/*小购物车*/
+.buycar .shangpin img{display:inline-block;width: 50px;height: 50px;border:1px solid #ddd;}
+.buycar .shangpin li{height: 55px;border-bottom:1px dotted #ddd; }

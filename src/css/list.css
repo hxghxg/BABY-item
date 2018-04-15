@@ -1,0 +1,38 @@
+/* 
+* @Author: Marte
+* @Date:   2018-04-10 19:19:21
+* @Last Modified by:   Marte
+* @Last Modified time: 2018-04-14 18:05:44
+*/
+.logo .baozhang{position: absolute;top:76%;right:120px;transform:translate(0,-50%);}
+.list_t{height: 80px;padding:38px 0 22px 0;position:relative;}
+.list_t img{display:inline-block; height: 80px;width: 80px;margin-right:16px;}
+.list_t>p{font-size: 18px;line-height: 32px;font-weight: bold;}
+.list_t p>span{display:inline-block;margin-left:12px; font-size: 18px;line-height: 32px;font-weight: bold;color:#FF4965;}
+.list_t .shoucang{display:inline-block;width: 78px;height: 22px;border:1px solid #ddd;border-radius: 11px;font-size: 12px;line-height: 22px;text-align: center;padding-left:12px; position:absolute;top:50%;right:0;transform:translate(0,-50%);}
+.list_t i{position:absolute;top:50%;left:-22px;transform:translate(0,-50%);}
+.list_c{height: 390px;}
+.list_c .biqiang{height: 60px;}
+.list_c .biqiang>p{font-size: 28px;line-height: 60px;text-align: center;}
+.list_c .biqiang i{margin-right: 12px;}
+.list_c .biqiang_b{height: 330px;}
+.list_c .biqiang_b li img{display:inline-block;width: 256px;height: 256px;}
+.list_c .biqiang_b p{white-space:nowrap;text-overflow:ellipsis;overflow:hidden;}
+.list_c .biqiang_b li{width: 256px;height:330px;float: left;list-style: none;margin-right:16px;}
+.list_c .biqiang_b li:nth-child(4){margin-right:0;}
+
+.list_b{height: 2550px;}
+.list_b .fenlei{height: 48px;border: 1px solid #ddd;line-height: 48px;font-size: 14px;}
+.list_b .fenlei a:hover{color:#FF4965;}
+.list_b .fenlei a,.list_b .tuijian a{margin-left:26px;}
+.list_b .fenlei span,.list_b .tuijian span{margin-left:20px;}
+.list_b .tuijian{height: 50px;background: #F8F9FA;line-height: 50px;font-size: 14px;}
+.list_b .tuijian a:hover{color:#FF4965;}
+
+.list_b .goodslist img{display:block;width: 252px;height: 252px;}
+.list_b .goodslist li{list-style: none;width: 254px;height: 330px;border:1px solid #ddd;float: left;margin:15px 18px 0 0;}
+.list_b .goodslist li p{white-space:nowrap;text-overflow:ellipsis;overflow:hidden;}
+.list_b .goodslist li:nth-child(4n){margin-right: 0;}
+
+.baozhang{height: 115px;padding-top:40px;}
+.baozhang>img{display:block;width: 100%;border:1px solid #ddd;}
