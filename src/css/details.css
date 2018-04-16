@@ -4,38 +4,224 @@
 * @Last Modified by:   Marte
 * @Last Modified time: 2018-04-15 14:30:22
 */
-#bigbox{background:#F2F4F6;}
-.deta .deta_t{height: 50px;background:#F2F4F6;}
-.deta .deta_t a{line-height: 50px;font-size: 12px;margin-left:8px;}
-.deta .deta_bl{width: 890px;background: #fff;height: 650px;}
-.deta .deta_br{width: 190px;height: 650px;}
-.deta .deta_bl .glass{width:410px;height: 650px;}
-.deta .deta_bl .choose{width:480px;height: 650px;}
-.deta .deta_bl .choose_t{height: 88px;line-height: 88px;border-bottom: 1px dotted #ddd ;}
-.deta .deta_bl .choose_t span:nth-child(1){font-size: 28px;}
-.deta .deta_bl .choose_b{height: 380px;width:420px;padding:0 30px 0 30px;position:relative;}
-.deta .deta_bl .choose_b span{font-size: 12px;}
-.deta .deta_bl .choose_b .color{display:inline-block;width: 90px;height: 30px;border: 1px solid #ddd;line-height: 30px;text-align: center;margin:0 0 22px 12px;}
-.deta .deta_bl .choose_b .size{display:inline-block;width: 42px;height: 30px;border: 1px solid #ddd;line-height: 30px;text-align: center;margin:0 0 22px 12px;}
-.deta .deta_bl .choose_b input{border:1px solid #ddd;width: 70px;margin-left:12px;text-align: center;}
-.deta .deta_bl .choose_b .goumai{display:inline-block;width: 136px;height: 50px;line-height: 50px;border:1px solid #FF4965;margin:22px 0 0 40px;text-align: center;border-radius: 4px;}
-.deta .deta_bl .choose_b .buy{background:#FF4965;color:#fff;}
-.xiangqing{height: 725px;padding-top:40px;position:relative;}
-.xiangqing_l{height: 723px;width: 870px;margin-right:18px;border:1px solid #ddd;}
-.xiangqing_r{height:1320px;width: 190px;border:1px solid #ddd;position:absolute;top:40px;right:0;background: #fff;}
-.xiangqing_r>p{line-height: 46px;font-size: 16px;text-align: center;background: #F8F8F8;border-bottom: 1px solid #ddd;}
-.xiangqing_r .xiangsi li{width: 190px;height: 150px;list-style: none;margin:10px 0;border-bottom: 1px dotted #ddd;}
-.xiangqing_r .xiangsi li p{white-space:nowrap;text-overflow:ellipsis;overflow:hidden;}
-.xiangqing_r .xiangsi li img{display:block;height:100px;width: 100px;}
-.xiangqing_lt{height: 45px;}
-.xiangqing_lt a{display:inline-block;width: 118px;height: 45px;line-height: 45px;font-size: 16px;text-align: center;border-bottom:1px solid #ddd;border-right:1px solid #ddd;}
-.koubei{width: 870px;height: 970px;}
-.xihuan{width: 870px;height: 620px;background: #fff;}
+#bigbox {
+  background: #F2F4F6;
+}
 
-.xihuan_b li{width: 216px;height: 270px;float: left;list-style: none;border-left:1px solid #ddd;border-bottom:1px solid #ddd;}
-.xihuan_b{border-top:1px solid #ddd;border-left:1px solid #ddd;}
-.xihuan_b li img{display:block;width: 216px;height: 216px;}
-.xihuan_b li p{white-space:nowrap;text-overflow:ellipsis;overflow:hidden;}
-.youshi{width: 870px;height: 940px;} 
-.menu-a{position:fixed; bottom:315px;right:68px;z-index: 10000;}
-.sjgm{position:absolute;top:304px;right:104px;display:none;}
+.deta .deta_t {
+  height: 50px;
+  background: #F2F4F6;
+}
+
+.deta .deta_t a {
+  line-height: 50px;
+  font-size: 12px;
+  margin-left: 8px;
+}
+
+.deta .deta_bl {
+  width: 890px;
+  background: #fff;
+  height: 650px;
+}
+
+.deta .deta_br {
+  width: 190px;
+  height: 650px;
+}
+
+.deta .deta_bl .glass {
+  width: 410px;
+  height: 650px;
+}
+
+.deta .deta_bl .choose {
+  width: 480px;
+  height: 650px;
+}
+
+.deta .deta_bl .choose_t {
+  height: 88px;
+  line-height: 88px;
+  border-bottom: 1px dotted #ddd;
+}
+
+.deta .deta_bl .choose_t span:nth-child(1) {
+  font-size: 28px;
+}
+
+.deta .deta_bl .choose_b {
+  height: 380px;
+  width: 420px;
+  padding: 0 30px 0 30px;
+  position: relative;
+}
+
+.deta .deta_bl .choose_b span {
+  font-size: 12px;
+}
+
+.deta .deta_bl .choose_b .color {
+  display: inline-block;
+  width: 90px;
+  height: 30px;
+  border: 1px solid #ddd;
+  line-height: 30px;
+  text-align: center;
+  margin: 0 0 22px 12px;
+}
+
+.deta .deta_bl .choose_b .size {
+  display: inline-block;
+  width: 42px;
+  height: 30px;
+  border: 1px solid #ddd;
+  line-height: 30px;
+  text-align: center;
+  margin: 0 0 22px 12px;
+}
+
+.deta .deta_bl .choose_b input {
+  border: 1px solid #ddd;
+  width: 70px;
+  margin-left: 12px;
+  text-align: center;
+}
+
+.deta .deta_bl .choose_b .goumai {
+  display: inline-block;
+  width: 136px;
+  height: 50px;
+  line-height: 50px;
+  border: 1px solid #FF4965;
+  margin: 22px 0 0 40px;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.deta .deta_bl .choose_b .buy {
+  background: #FF4965;
+  color: #fff;
+}
+
+.xiangqing {
+  height: 725px;
+  padding-top: 40px;
+  position: relative;
+}
+
+.xiangqing_l {
+  height: 723px;
+  width: 870px;
+  margin-right: 18px;
+  border: 1px solid #ddd;
+}
+
+.xiangqing_r {
+  height: 1320px;
+  width: 190px;
+  border: 1px solid #ddd;
+  position: absolute;
+  top: 40px;
+  right: 0;
+  background: #fff;
+}
+
+.xiangqing_r > p {
+  line-height: 46px;
+  font-size: 16px;
+  text-align: center;
+  background: #F8F8F8;
+  border-bottom: 1px solid #ddd;
+}
+
+.xiangqing_r .xiangsi li {
+  width: 190px;
+  height: 150px;
+  list-style: none;
+  margin: 10px 0;
+  border-bottom: 1px dotted #ddd;
+}
+
+.xiangqing_r .xiangsi li p {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.xiangqing_r .xiangsi li img {
+  display: block;
+  height: 100px;
+  width: 100px;
+}
+
+.xiangqing_lt {
+  height: 45px;
+}
+
+.xiangqing_lt a {
+  display: inline-block;
+  width: 118px;
+  height: 45px;
+  line-height: 45px;
+  font-size: 16px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+}
+
+.koubei {
+  width: 870px;
+  height: 970px;
+}
+
+.xihuan {
+  width: 870px;
+  height: 620px;
+  background: #fff;
+}
+
+.xihuan_b {
+  border-top: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+}
+
+.xihuan_b li {
+  width: 216px;
+  height: 270px;
+  float: left;
+  list-style: none;
+  border-left: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+
+.xihuan_b li img {
+  display: block;
+  width: 216px;
+  height: 216px;
+}
+
+.xihuan_b li p {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.youshi {
+  width: 870px;
+  height: 940px;
+}
+
+.menu-a {
+  position: fixed;
+  bottom: 315px;
+  right: 68px;
+  z-index: 10000;
+}
+
+.sjgm {
+  position: absolute;
+  top: 304px;
+  right: 104px;
+  display: none;
+}

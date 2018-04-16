@@ -1,20 +1,90 @@
 /* 
 * @Author: Marte
+* @Date:   2018-04-15 17:34:40
+* @Last Modified by:   Marte
+* @Last Modified time: 2018-04-15 17:34:40
+*/
+/* 
+* @Author: Marte
 * @Date:   2018-04-09 15:34:31
 * @Last Modified by:   Marte
-* @Last Modified time: 2018-04-15 16:00:53
+* @Last Modified time: 2018-04-12 11:37:29
 */
-#cont{height: 400px;margin:110px 0;}
-.cont_r{width:328px;height: 350px;border:1px solid #ddd;border-top:2px solid #FF4965;padding:50px 36px 0 36px ; position: relative;}
-.cont_r .dl{font-size: 16px;line-height: 20px;color:#000;font-weight: bold;}
-.cont_r .aa{width: 300px;height: 32px;border:1px solid #E8E8E8;margin-top:16px;padding-left:30px;}
-.cont_r>i{position: absolute;top:94px;left:48px;}
-.cont_r .group{position:relative;}
-.cont_r .group .mima{position: absolute;top:24px;left:13px;}
-.cont_r .bb{width: 150px;height: 32px;border:1px solid #E8E8E8;margin:16px 0;}
-.cont_r .num{display:block;width: 80px;height: 32px;border:1px solid #E8E8E8;margin:16px 16px 16px 0;line-height: 30px;text-align: center;}
-.cont_r .btn{width: 330px;height: 32px;background:#FF4965 ;margin-top:16px;}
+#cont {
+  height: 400px;
+  margin: 110px 0;
+}
+
+.cont_r {
+  width: 328px;
+  height: 350px;
+  border: 1px solid #ddd;
+  border-top: 2px solid #FF4965;
+  padding: 50px 36px 0 36px;
+  position: relative;
+}
+
+.cont_r .dl {
+  font-size: 16px;
+  line-height: 20px;
+  color: #000;
+  font-weight: bold;
+}
+
+.cont_r .aa {
+  width: 300px;
+  height: 32px;
+  border: 1px solid #E8E8E8;
+  margin-top: 16px;
+  padding-left: 30px;
+}
+
+.cont_r > i {
+  position: absolute;
+  top: 94px;
+  left: 48px;
+}
+
+.cont_r .group {
+  position: relative;
+}
+
+.cont_r .group .mima {
+  position: absolute;
+  top: 24px;
+  left: 13px;
+}
+
+.cont_r .bb {
+  width: 150px;
+  height: 32px;
+  border: 1px solid #E8E8E8;
+  margin: 16px 0;
+}
+
+.cont_r .num {
+  display: block;
+  width: 80px;
+  height: 32px;
+  border: 1px solid #E8E8E8;
+  margin: 16px 16px 16px 0;
+}
+
+.cont_r .btn {
+  width: 330px;
+  height: 32px;
+  background: #FF4965;
+  margin-top: 16px;
+}
+
+.cont_r p {
+  font-size: 12px;
+  line-height: 18px;
+  margin-top: 16px;
+}
+
 /*.cont_r .dxjy{width: 196px;height: 32px;border:1px solid #E8E8E8;margin-top:16px;padding-left:30px;}
 .cont_r #huoqu{display:inline-block;width: 82px;height: 32px;border:1px solid #FF4965;background: #fff;float: right;margin-top:16px;}*/
-.cont_r p{font-size: 12px;line-height: 18px;margin-top:16px;}
-.has-error{border:1px solid red;}
+.has-error {
+  border: 1px solid red;
+}

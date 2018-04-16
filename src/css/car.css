@@ -4,33 +4,171 @@
 * @Last Modified by:   Marte
 * @Last Modified time: 2018-04-14 20:26:12
 */
-#car{background: #F2F4F6;padding-top:40px;}
-.wode{height: 70px;background: #FAFAFA;padding-left:30px;}
-.wode span{display:inline-block;height: 70px;line-height: 70px;font-size: 24px;color:#A7A7A7;font-weight: bold;}
+#car {
+  background: #F2F4F6;
+  padding-top: 40px;
+}
 
-.hot{padding-top:20px;}
-.hot_list{height: 270px;background: #fff;padding:0 30px 30px 30px;}
-.hot_t a{line-height: 60px;font-size: 20px;color:#000;}
+.wode {
+  height: 70px;
+  background: #FAFAFA;
+  padding-left: 30px;
+}
 
-.count{background: #fff;padding:30px 20px 16px 20px;}
-.count_t{height: 30px;background:#F3F3F3;line-height: 30px;font-size: 12px;padding:0 12px;}
-.count_t .sp{display:inline-block;margin-left:80px;}
-.count_t .dj{display:inline-block;margin-left:390px;}
-.count_t .sl{display:inline-block;margin-left:120px;}
-.count_t .xj{display:inline-block;margin-left:232px;}
-.count_t .cz{display:inline-block;margin-left:40px;}
-.shop{height: 40px;line-height: 40px;font-size: 12px;margin-top:18px;background:#F3F3F3;padding:0 12px;}
-.count_b{height: 50px;line-height: 50px;border:1px solid #ddd;font-size: 20px;padding:0 12px;color:#FF5482;}
-.quren{height: 60px;line-height: 60px;margin-top:12px;padding:0 12px;background:#F3F3F3;}
-.quren .del{display:inline-block;margin-left:20px;}
-.quren .zongjie{display:inline-block;margin-left:310px;font-size: 20px;}
-.quren .zongjie span{color:#FF5482;}
-.carlist li{height: 90px;border:1px solid #ddd;padding:15px 12px 0 12px ;}
-.carlist img{display:block;width: 80px;height: 80px;}
-.carlist li .name{display:inline-block; width: 165px;}
-.carlist li .price{display:inline-block;margin-left:215px;}
-.carlist li .qty{display:inline-block;width: 50px;margin-left:110px;border:1px solid #ddd;text-align: center;}
-.carlist li .xiaoji{display:inline-block;margin-left:200px;}
-.carlist li .shanchu{display:inline-block;margin-left:26px;}
-.hot .hot_b li img{display:block;width: 160px;height: 160px;}
-.hot .hot_b li{list-style: none;width: 160px;height: 210px;float: left;margin-left:44px;}
+.wode span {
+  display: inline-block;
+  height: 70px;
+  line-height: 70px;
+  font-size: 24px;
+  color: #A7A7A7;
+  font-weight: bold;
+}
+
+.hot {
+  padding-top: 20px;
+}
+
+.hot_list {
+  height: 270px;
+  background: #fff;
+  padding: 0 30px 30px 30px;
+}
+
+.hot_t a {
+  line-height: 60px;
+  font-size: 20px;
+  color: #000;
+}
+
+.count {
+  background: #fff;
+  padding: 30px 20px 16px 20px;
+}
+
+.count_t {
+  height: 30px;
+  background: #F3F3F3;
+  line-height: 30px;
+  font-size: 12px;
+  padding: 0 12px;
+}
+
+.count_t .sp {
+  display: inline-block;
+  margin-left: 80px;
+}
+
+.count_t .dj {
+  display: inline-block;
+  margin-left: 390px;
+}
+
+.count_t .sl {
+  display: inline-block;
+  margin-left: 120px;
+}
+
+.count_t .xj {
+  display: inline-block;
+  margin-left: 232px;
+}
+
+.count_t .cz {
+  display: inline-block;
+  margin-left: 40px;
+}
+
+.shop {
+  height: 40px;
+  line-height: 40px;
+  font-size: 12px;
+  margin-top: 18px;
+  background: #F3F3F3;
+  padding: 0 12px;
+}
+
+.count_b {
+  height: 50px;
+  line-height: 50px;
+  border: 1px solid #ddd;
+  font-size: 20px;
+  padding: 0 12px;
+  color: #FF5482;
+}
+
+.quren {
+  height: 60px;
+  line-height: 60px;
+  margin-top: 12px;
+  padding: 0 12px;
+  background: #F3F3F3;
+}
+
+.quren .del {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.quren .zongjie {
+  display: inline-block;
+  margin-left: 310px;
+  font-size: 20px;
+}
+
+.quren .zongjie span {
+  color: #FF5482;
+}
+
+.carlist li {
+  height: 90px;
+  border: 1px solid #ddd;
+  padding: 15px 12px 0 12px;
+}
+
+.carlist img {
+  display: block;
+  width: 80px;
+  height: 80px;
+}
+
+.carlist li .name {
+  display: inline-block;
+  width: 165px;
+}
+
+.carlist li .price {
+  display: inline-block;
+  margin-left: 215px;
+}
+
+.carlist li .qty {
+  display: inline-block;
+  width: 50px;
+  margin-left: 110px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+.carlist li .xiaoji {
+  display: inline-block;
+  margin-left: 200px;
+}
+
+.carlist li .shanchu {
+  display: inline-block;
+  margin-left: 26px;
+}
+
+.hot .hot_b li {
+  list-style: none;
+  width: 160px;
+  height: 210px;
+  float: left;
+  margin-left: 44px;
+}
+
+.hot .hot_b li img {
+  display: block;
+  width: 160px;
+  height: 160px;
+}
